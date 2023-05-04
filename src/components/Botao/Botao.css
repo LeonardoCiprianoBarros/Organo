@@ -1,0 +1,16 @@
+.BotaoCriarCard{
+    background-color: #6278f7;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 32px;
+    margin: 32px 0;
+    color: white;
+    cursor: pointer;
+     
+}
+
+.BotaoCriarCard:hover{
+    color: #95ffd4;
+}
