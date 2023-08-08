@@ -7,7 +7,7 @@ const ListaSuspensas = (props) => {
 
     <div className="ListaSuspensa">
       <label>{props.label}</label>
-      <select placeholder='coe' onChange= {e=> props.valorAlt(e.target.value)} value = {props.value}>
+      <select onChange= {e=> props.valorAlt(e.target.value)} value = {props.value}>
         <option >Selecione seu time</option>
        {props.itens.map(item=> <option key={item}>{item}</option>)}
       </select>
